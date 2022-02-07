@@ -1,0 +1,52 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-size: 0.9375rem;
+  font-family: "Roboto", sans-serif;
+  background-color: #d6e2f0;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container__card {
+  width: 18.125rem;
+  height: 28.125rem;
+  background-color: white;
+  border-radius: 1.25rem;
+}
+.container__card-qr img {
+  width: 88%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 1rem;
+  border-radius: 0.625rem;
+}
+.container__card-text {
+  width: 88%;
+  margin: 0 auto;
+  margin-top: 1.875rem;
+  text-align: center;
+}
+.container__card-text h3 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  margin-bottom: 1.25rem;
+  color: #1f3251;
+}
+.container__card-text p {
+  font-weight: 400;
+  color: #7b879d;
+}
+
+/*# sourceMappingURL=style.css.map */

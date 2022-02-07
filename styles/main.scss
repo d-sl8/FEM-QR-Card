@@ -1,0 +1,62 @@
+// Colours
+
+$white: rgb(255, 255, 255);
+$light-gray: rgb(214, 226, 240);
+$grayish-blue: rgb(123, 135, 157);
+$dark-blue: rgb(31, 50, 81);
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-size: 0.9375rem;
+  font-family: "Roboto", sans-serif;
+  background-color: $light-gray;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__card {
+    width: 18.125rem;
+    height: 28.125rem;
+    background-color: $white;
+    border-radius: 1.25rem;
+
+    &-qr img {
+      width: 88%;
+      display: block;
+      margin: 0 auto;
+      margin-top: 1rem;
+      border-radius: 0.625rem;
+    }
+
+    &-text {
+      width: 88%;
+      margin: 0 auto;
+      margin-top: 1.875rem;
+      text-align: center;
+
+      h3 {
+        font-family: "Inter", sans-serif;
+        font-weight: 700;
+        margin-bottom: 1.25rem;
+        color: $dark-blue;
+      }
+
+      p {
+        font-weight: 400;
+        color: $grayish-blue;
+      }
+    }
+  }
+}
